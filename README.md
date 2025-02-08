@@ -33,7 +33,7 @@ I'm passionate about leveraging **AI, automation, and digital tools** to solve r
 🔗 [**Visit My GitHub Pages Portfolio**](https://Jsammy1890923.github.io) *(Once deployed!)*
 
 ## 📬 Let's Connect!
-- 💼 [LinkedIn](#)  
+- 💼 [LinkedIn](https://www.linkedin.com/in/john-phillips-63b60b342/)  
 - 🐦 [Twitter](#)  
 - ✉️ [Email](#)  
 
