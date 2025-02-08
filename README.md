@@ -32,6 +32,12 @@ I'm passionate about leveraging **AI, automation, and digital tools** to solve r
 ## 🌍 Live Portfolio Website
 🔗 [**Visit My GitHub Pages Portfolio**](https://Jsammy1890923.github.io) *(Once deployed!)*
 
+## 📂 Individual Project Repositories
+- 🤖 [AI Chatbot Assistant](https://github.com/Jsammy1890923/AI-Chatbot-Assistant)  
+- ⚡ [Task Automation Bot](https://github.com/Jsammy1890923/Task-Automation-Bot)  
+- 🌐 [AI-Powered Portfolio Website](https://github.com/Jsammy1890923/AI-Powered-Portfolio)  
+- 📊 [Stock Price Predictor](https://github.com/Jsammy1890923/Stock-Price-Predictor)  
+
 ## 📬 Let's Connect!
 - 💼 [LinkedIn](https://www.linkedin.com/in/john-phillips-63b60b342/)  
 - 🐦 [Twitter](#)  
