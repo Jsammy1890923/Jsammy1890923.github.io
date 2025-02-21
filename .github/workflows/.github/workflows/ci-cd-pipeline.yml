@@ -1,0 +1,45 @@
+name: CI/CD Pipeline 🚀
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+  schedule:
+    - cron: "0 0 * * *"  # Runs nightly at midnight UTC
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Set Up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+          cache: 'pip'  # Enables caching for faster builds
+
+      - name: Install Dependencies
+        run: |
+          pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Lint Code (flake8)
+        run: flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
+
+      - name: Format Check (Black)
+        run: black --check .
+
+      - name: Run Security Scan (Bandit)
+        run: bandit -r .
+
+      - name: Run Tests with Coverage
+        run: |
+          pytest --cov=my_project tests/
+          coverage xml
+
+      - name: Upload Coverage Rep
